@@ -1,0 +1,29 @@
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:57:56.786 BaseTest:232 - log path: logs/Android_Pixel_5_API_32
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:57:56.790 BaseTest:239 - load config.properties
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:57:56.797 BaseTest:244 - load strings/strings.xml
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:57:56.815 BaseTest:269 - appUrl is/Users/arieshome/Projects/Git/appium-pageobjectmodel/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:08.162 BaseTest:292 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/arieshome/Projects/Git/appium-pageobjectmodel/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5_API_32, avdLaunchTimeout=120000, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=/Users/arieshome/Projects/Git/appium-pageobjectmodel/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, avd=Pixel_5_API_32, avdLaunchTimeout=120000, deviceName=Pixel_5_API_32, systemPort=10000, udid=emulator-5556}, deviceApiLevel=32, deviceManufacturer=Google, deviceModel=sdk_gphone64_arm64, deviceName=emulator-5556, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=emulator-5556, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=12, statBarHeight=66, systemPort=10000, takesScreenshot=true, udid=emulator-5556, viewportRect={left=0, top=66, width=1080, height=2230}, warnings={}, webStorageEnabled=false}
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:09.834 LoginTests:47 - 
+****** starting test:invalidPassword******
+
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:10.997 BaseTest:344 - login with standard_user
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:12.777 BaseTest:344 - password is invalidpassword
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:13.897 BaseTest:332 - press login button
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:14.991 BaseTest:364 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:16.059 BaseTest:132 - video path: videos/Android_Pixel_5_API_32/2022-09-26-22-57-56/LoginTests/invalidPassword.mp4
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:16.597 LoginTests:47 - 
+****** starting test:invalidUserName******
+
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:17.371 BaseTest:344 - login with invalidusername
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:19.065 BaseTest:344 - password is secret_sauce
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:19.682 BaseTest:332 - press login button
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:19.969 BaseTest:364 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:20.839 BaseTest:132 - video path: videos/Android_Pixel_5_API_32/2022-09-26-22-57-56/LoginTests/invalidUserName.mp4
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:21.373 LoginTests:47 - 
+****** starting test:successfulLogin******
+
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:22.088 BaseTest:344 - login with standard_user
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:23.261 BaseTest:344 - password is secret_sauce
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:24.382 BaseTest:332 - press login button
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:25.744 BaseTest:364 - product page title is - PRODUCTS
+[logs/Android_Pixel_5_API_32 INFO ] 2022-09-26 22:58:26.735 BaseTest:132 - video path: videos/Android_Pixel_5_API_32/2022-09-26-22-57-56/LoginTests/successfulLogin.mp4
